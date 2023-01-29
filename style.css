@@ -6,18 +6,50 @@
 
 body {
     color: #000;
-    text-transform: capitalize;
-}
-
-.hero {
-    height: 100vh;
-    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button{
+    display: inline-block;
+    background-color: #08fdd8;
+    color: #000;
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button:hover { 
+    background-color: #000;
+    color: #08fdd8;
+}
+
+ul li {
+    list-style: none;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #fff;
 }
 
 .hero-content {
@@ -28,40 +60,66 @@ body {
 
 }
 
-h1 {
-    font-family: 'Mulish', sans-serif;
-    font-size: 5rem;
-}
-
-h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+.hero-subtitle {
     color: #8d8d8d;
     margin-top: 10px;
 }
 
-a {
-    text-decoration: none;
+.hero-image {
+    width: 600px;
+}
+
+.info {
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 150px 0;
+
+}
+
+.info-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+
+    font-size: 1.2rem;
     color: #8d8d8d;
 }
 
-.contact-me {
-    display: inline-block;
-    background-color: #08fdd8;
-    color: #000;
-    margin-top: 50px;
-    padding: 10px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.contact-me:hover { 
+.footer {
     background-color: #000;
-    color: #08fdd8;
+}
+.contacts-content {
+    color: #fff;
+    font-size: 1rem;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.hero-image {
-    width: 600px;
+div span {
+    text-transform: lowercase;
+    color:#8d8d8d; 
+}
+
+span a {
+    color: #8d8d8d;
 }
