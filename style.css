@@ -29,11 +29,11 @@ a {
     display: inline-block;
     background-color: #08fdd8;
     color: #000;
-    margin-top: 50px;
-    padding: 10px 20px;
+    margin-top: 40px;
+    padding: 10px 30px;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -58,6 +58,15 @@ ul li {
     justify-content: space-between;
     align-items: center;
 
+}
+
+.hello {
+    vertical-align:-100%;
+}
+
+.hero-title h1 {
+    display: inline;
+    line-height: 7rem;
 }
 
 .hero-subtitle {
